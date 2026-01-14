@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <aside>
+      <section id="odin-logo">
+        <img src="./images/odin-logo.png" alt="odin project logo" />
+        <p>ODIN</p>
+      </section>
+      <p id="photo-credit">Photo by Halie West on Unsplash</p>
+    </aside>
+    <main>
+      <section id="heading">
+        <p>
+          This is not a real online service! You know you need something like
+          this on your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up now to get started.</p>
+        <p>You know you want to.</p>
+      </section>
+      <section>
+        <form>
+          <p>Let's do this!</p>
+          <div class="form-row">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" id="first-name" />
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" />
+          </div>
+          <div class="form-row">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" />
+            <label for="phone-number">PHONE NUMBER</label>
+            <input type="text" id="phone-number" />
+          </div>
+          <div class="form-row">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" />
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm-password" />
+          </div>
+          <p id="password-validation" class="hidden">*Passwords do not match</p>
+        </form>
+      </section>
+      <section id="account">
+        <button>Create Account</button>
+        <p>Already have an account? <a href="#">Log In</a></p>
+      </section>
+    </main>
+  </body>
+</html>
