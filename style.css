@@ -123,6 +123,7 @@ input {
 
 #password-validation {
   color: red;
+  font-size: 0.8rem;
 }
 
 #account button {
@@ -136,9 +137,15 @@ input {
   width: fit-content;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
   outline: none;
   border: 1px solid blue;
   border-radius: 0.5rem;
   box-shadow: rgba(63, 63, 63, 0.35) 1px 2px 2px;
+}
+
+.hidden {
+  display: none;
 }
